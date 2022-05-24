@@ -9,7 +9,7 @@
 <body>  
     <h2>Produtos</h2>
 
-    <table border="1"> <!--TAG TABLE PARA CRIAR A ESTRUTURA DA TABELAS-->
+    <table border="1" width="100%"> <!--TAG TABLE PARA CRIAR A ESTRUTURA DA TABELAS-->
         <tr><!--TAG TR PARA CRIAR AS LINHAS DA TABELAS-->
             <th>Código</th><!--TAG USADA PARA COLOCAR OS DADOS DAS TABELAS-->
             <th>Produto</th><!--TAG th usada para mudar ou diferenciar o titulo das tabelas-->
@@ -30,7 +30,19 @@
             <td>Mouse</td>
             <td>R$ 59,99</td>
         </tr>
-    </table> 
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupon1 -R$ 10,00</td>
+        </tr>
+        <tr>            
+            <td colspan="2">Cupon2 -R$ 1,00</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td colspan="2">R$ 3.478,99</td>
+        </tr>
+    </table>
+    <img src="img/html.png" alt="" width="100%">
 
     </body>
 </html>
